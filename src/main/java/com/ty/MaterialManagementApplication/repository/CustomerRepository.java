@@ -6,6 +6,6 @@ import com.ty.MaterialManagementApplication.dto.Customer;
 
 
 
-public interface CustomerRepository  extends JpaRepository<Customer, Integer>{
+public interface CustomerRepository  extends JpaRepository<Customer, String>{
 
 }

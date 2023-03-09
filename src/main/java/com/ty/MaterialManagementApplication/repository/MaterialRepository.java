@@ -8,6 +8,6 @@ import com.ty.MaterialManagementApplication.dto.Material;
 
 
 
-public interface MaterialRepository extends JpaRepository<Material, Integer> {
+public interface MaterialRepository extends JpaRepository<Material, String> {
 
 }

@@ -6,6 +6,6 @@ import com.ty.MaterialManagementApplication.dto.Vendor;
 
 
 
-public interface VendorRepository extends JpaRepository<Vendor, Integer> {
+public interface VendorRepository extends JpaRepository<Vendor, String> {
 
 }

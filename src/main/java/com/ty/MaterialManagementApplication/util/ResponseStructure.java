@@ -13,8 +13,8 @@ this.message = message;
 public int getStatus() {
 return status;
 }
-public void setStatus(int status) {
-this.status = status;
+public void setStatus(int i) {
+this.status = i;
 }
 public T getData() {
 return data;

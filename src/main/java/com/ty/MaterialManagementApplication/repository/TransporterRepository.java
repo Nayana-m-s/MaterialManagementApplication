@@ -6,6 +6,6 @@ import com.ty.MaterialManagementApplication.dto.Transporter;
 
 
 
-public interface TransporterRepository  extends JpaRepository<Transporter, Integer>{
+public interface TransporterRepository  extends JpaRepository<Transporter, String>{
 
 }
